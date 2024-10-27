@@ -24,8 +24,6 @@ tomorrow = today + timedelta(1)
 tomorrowName = (tomorrow.strftime('%A'))
 userName = os.getlogin()
 output_path = os.getcwd()
-#output_file = 'C:\\Users\\307311530\\Desktop\\scripts\\Zivugim\\Test\\zivugim.xlsx' #XLSX ONLY!!
-#output_path = 'C:\\Users\\307311530\\Desktop\\scripts\\Zivugim\\Test\\'
 output_file = output_path + '\\zivugim' + tomorrowName + '.xlsx' #ONLY XLSX!!!
 output_file = output_path + '\\zivugim' + tomorrowName + '.xlsx' #ONLY XLSX!!!
 print(output_path)
