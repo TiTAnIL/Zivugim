@@ -19,8 +19,6 @@ from tkinter import messagebox
 import random as rn
 import shutil
 
-#MagicFile = 'C:\\Users\\307311530\\Desktop\\scripts\\Zivugim\\Magic\\vod21122020.xlsx' #XLSX ONLY!!!
-
 today = datetime.now()
 tomorrow = today + timedelta(1)
 tomorrowName = (tomorrow.strftime('%A'))
